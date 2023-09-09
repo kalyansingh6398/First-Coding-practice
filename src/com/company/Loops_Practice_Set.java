@@ -20,6 +20,7 @@ public static void main(String args[]) {
 			}
 		
 		//System.out.println(sum);
+		 
 		int sum =0;
 		for(int i=1; i<5;i++) {
 			
@@ -27,10 +28,22 @@ public static void main(String args[]) {
 			sum = sum+(2*i+1);
 			}
 		
-		System.out.println(sum);*/
-	
+		System.out.println(sum);
+	// multiplication table
 	for(int x = 1;x<=10;x++) {
 		System.out.println("The Multiplication table of 5 is "+" " +5*x);
+	}*/
+	System.out.println("Enter any value");
+	int n = sc.nextInt();
+	System.out.println("har har mahdev......");
+	
+	int count = 0;
+	
+	for(; n>0;count++) {
+		n=n/10;
+		//System.out.println("n");
 	}
+	System.out.println(count);
+	
 }
 }
